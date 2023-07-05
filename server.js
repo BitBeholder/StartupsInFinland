@@ -1,10 +1,13 @@
 const express = require('express');
 const db = require('./database.js');
 const cors = require('cors');
+const path = require('path');
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.post('/startups', (req, res) => {
     const { name, field, location, size, description, website } = req.body;
