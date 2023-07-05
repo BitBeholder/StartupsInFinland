@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.modal-content {
+  width: 500px;
+  height: 500px;
+}
+
+.close {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  color: rgb(255, 0, 0);
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.startup-details-name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.startup-details-description {
+  border: 2px solid rgb(9, 61, 35);
+  padding: 20px;
+  max-height: 200px;
+  overflow: auto;
+}
+
+.search-container {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 35px; /* Adjust as needed */
+}
+
+.search-bar {
+  /* ...other styles... */
+}
+
+.table-auto {
+  margin-top: 10px; /* Adjust as needed */
+  /* ...other styles... */
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.link {
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column; /* or row, depending on your desired layout */
+  align-items: stretch; /* or other alignment options like center, flex-start, flex-end */
+  justify-content: flex-start; /* or other justification options like center, flex-start, flex-end */
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column; /* or row, depending on your desired layout */
+  align-items: stretch; /* or other alignment options like center, flex-start, flex-end */
+  justify-content: flex-start; /* or other justification options like center, flex-start, flex-end */
+}
