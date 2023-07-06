@@ -64,7 +64,7 @@ const StartupList = () => {
             />
           <p>---------------------------------------</p>   
           <p>Categories</p> 
-          <a>---------------------------------------</a>
+          <p>---------------------------------------</p>
             {categories.map(category => (
                 category && category.trim() !== '' && (
                   <div key={category}>
